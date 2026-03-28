@@ -26,6 +26,7 @@ namespace UsuariosApi
 
             app.UseHttpsRedirection();
 
+            app.UseAuthentication();
             app.UseAuthorization();
 
 
